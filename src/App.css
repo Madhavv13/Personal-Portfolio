@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    /* text-shadow: 4px 4px 18px rgba(0,0,0,0.5); */
+    
+    
+}
+body
+{
+    font-family: "Poppins",sans-serif;
+    height: 100vh;
+}
+html
+{
+    scroll-behavior: smooth;
+}
+
+p{
+    color: rgb(85,85,85);
+}
+
+:root
+{
+    --hue: 0;
+  --sat: 0%;
+  --title-color: hsl(var(--hue), var(--sat), 20%);
+  --title-color-dark: hsl(var(--hue), var(--sat), 0%);
+  --text-color: hsl(var(--hue), var(--sat), 46%);
+  --body-color: hsl(var(--hue), var(--sat), 98%);
+  --container-color: #fff;
+
+  /*========== Font and typography ==========*/
+  --body-font: "Poppins", sans-serif;
+
+  /*.5rem = 8px | 1rem = 16px ...*/
+  --big-font-size: 3.2rem;
+  --h1-font-size: 2.4rem;
+  --h2-font-size: 1.8rem;
+  --h3-font-size: 1.25rem;
+  --normal-font-size: 1rem;
+  --small-font-size: 0.875rem;
+  --smaller-font-size: 0.813rem;
+  --tiny-font-size: 0.625rem;
+
+  /*========== Font weight ==========*/
+  --font-normal: 400;
+  --font-medium: 500;
+  --font-semi-bold: 600;
+
+}
+
+
+@media screen and (max-width:425px)
+{
+    :root
+    {
+        --big-font-size: 2.4rem;
+        --h1-font-size: 2rem;
+        --h2-font-size: 1.4rem;
+        --h3-font-size: 1.1rem;
+        --normal-font-size: 0.9rem;
+        --small-font-size: 0.875rem;
+        --smaller-font-size: 0.813rem;
+        --tiny-font-size: 0.625rem;
+
+    }
+   
+}

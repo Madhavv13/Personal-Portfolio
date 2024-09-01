@@ -1,0 +1,123 @@
+#Skill
+{
+    padding-top: 4vh;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.Container
+{
+    height: 80%;
+    width: 100%;
+    display: flex;
+    padding-top: 3%;
+   justify-content: space-evenly;
+   flex-wrap: wrap;
+}
+.web
+{
+    width:40%;
+    border:rgba(53, 53, 53, 0.739) 0.1rem solid;
+    border-radius:2rem;
+    height: fit-content;
+}
+
+.web>h1
+{
+    text-align: center;
+    padding-top: 2%;
+}
+
+.content
+{
+    display: flex;
+}
+
+.left 
+{
+    width: 50%;
+}
+.s
+{
+    display: flex;
+    width: fit-content;
+    gap: 1rem;
+    padding-left: 10%;
+    padding-top: 4%;
+}
+
+
+.s1
+{
+    padding-top: 6%;
+    
+}
+.s>h3
+{
+    color: var(---title-color);
+    display: flex;
+    align-items: center;
+
+}
+
+.s3
+{
+    padding-bottom: 2.5%;
+}
+
+/* @media screen and (max-width:1200px)
+{
+    #Skill
+    {
+        padding-top: 12vh;
+    }
+} */
+
+
+ @media screen and (max-width:769px)
+{
+    .content {
+        flex-direction: column;
+        align-items: center;
+    }
+    .web
+    {
+        height: 70%;
+        width: 43%;
+    }
+} 
+@media screen and (max-width:600px)
+{
+    
+    .Container
+    {
+        align-items: center;
+        flex-direction: column;
+        gap: 2rem;
+    }
+    .web
+    {
+        width: 80%;
+        height: 80%;
+    }
+}
+@media screen and (max-width:425px)
+{
+    #Skill
+    {
+        height: fit-content;
+    }
+    .Container
+    {
+        align-items: center;
+        flex-direction: column;
+        gap: 2rem;
+    }
+    .web
+    {
+        width: 85%;
+        height: 80%;
+    }
+}
