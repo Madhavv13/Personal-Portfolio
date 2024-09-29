@@ -42,7 +42,7 @@ function Project() {
     <div className='project_info'>
       <div className='pr 1'>
           <div className='im 1'>
-            <img src="src\assests\pixel sketch.jpg" alt="" height={220} width={250}/>
+            <img src="images/pixel sketch.jpg" alt="" height={220} width={250}/>
           </div>
           <div className='title 1'>
             <h2>Etch a sketch</h2>
@@ -56,7 +56,7 @@ function Project() {
       </div>
       <div className='pr 2'>
           <div className='im 2'>
-            <img src="src\assests\rock.png" alt="" height={220} width={250}/>
+            <img src="images/rock.png" alt="" height={220} width={250}/>
           </div>
           <div className='title 2'>
             <h2>Rock Paper Scissor</h2>
@@ -69,7 +69,7 @@ function Project() {
       </div>
       <div className='pr 3'>
           <div className='im 3'>
-            <img src="src\assests\responsive.png" alt="" height={220} width={250}/>
+            <img src="images/responsive.png" alt="" height={220} width={250}/>
           </div>
           <div className='title 3'>
             <h2>Responsive Portfolio</h2>

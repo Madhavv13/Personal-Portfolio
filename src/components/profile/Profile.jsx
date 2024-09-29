@@ -1,11 +1,10 @@
 import React from 'react'
 import './Profile.css'
-
 function Profile() {
   return (
     <section id='profile'>
         <div className="profile_img">
-            <img src="src\assests\Profile.png" alt=""/>
+            <img src="/images/Profile.png" alt=""/>
         </div>
         <div className="profiletext">
             <p>Hello,I'm</p>
