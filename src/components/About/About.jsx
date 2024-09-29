@@ -9,7 +9,7 @@ function About() {
     </div>
     <div className="About_info">
       <div className="About_img" >
-        <img src="assests\about.jpg" alt="" />
+        <img src="src\assests\about.jpg" alt="" />
       </div>
       <div className="Abouttext">
           <div className="box">
