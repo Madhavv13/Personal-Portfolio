@@ -4,32 +4,32 @@ function Project() {
   function demo1()
   {
     
-    window.location.href="https://madhavv1github.github.io/pixel-sketch/"
+    window.location.href="https://madhavv13github.github.io/pixel-sketch/"
   }
   function demo1git()
   {
-    window.location.href="https://github.com/Madhavv1GitHub/pixel-sketch"
+    window.location.href="https://github.com/Madhavv13GitHub/pixel-sketch"
   }
 
   function demo2()
   {
     
-    window.location.href="https://madhavv1github.github.io/Rock-Paper/"
+    window.location.href="https://madhavv13github.github.io/Rock-Paper/"
   }
   function demo2git()
   {
-    window.location.href="https://github.com/Madhavv1GitHub/Rock-Paper/"
+    window.location.href="https://github.com/Madhavv13GitHub/Rock-Paper/"
   }
 
 
   function demo3()
   {
     
-    window.location.href="https://madhavv1github.github.io/responsive-portfolio/"
+    window.location.href="https://madhavv13github.github.io/responsive-portfolio/"
   }
   function demo3git()
   {
-    window.location.href="https://github.com/Madhavv1GitHub/responsive-portfolio/"
+    window.location.href="https://github.com/Madhavv13GitHub/responsive-portfolio/"
   }
 
 
