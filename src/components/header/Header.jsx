@@ -14,7 +14,7 @@ function Header() {
             <li><a href="#contact">Contact</a></li>
         
         </ul>
-        <div className='ham' onClick={()=>showMenu(!Toggle)}><i class="uil uil-bars"></i></div>
+        <div className='ham' onClick={()=>showMenu(false)}><i class="uil uil-bars"></i></div>
     </nav>
     
     </>
